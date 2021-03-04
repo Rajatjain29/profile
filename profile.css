@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  html,body{
+    width: 100%;
+    height: 100%;
+  }
+  #back{
+    width: 100%;
+    height: 100%;
+    background-color: #d6caca;
+  }
+  #top{
+      width: 100%;
+      height: 30%;
+      background-size: cover;
+      
+      
+      position: relative;
+      background-image: url(https://images.pexels.com/photos/2080960/pexels-photo-2080960.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940);
+        }
+#photo{
+    width: 200px;
+    height: 200px;
+    border-radius: 23px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(https://cms-assets.tutsplus.com/uploads/users/114/posts/26967/image/Twitter-logo.jpg);
+    position: absolute;
+    bottom: -50%;
+    left: 10%;
+}
+ 
+  #down{
+      width: 100%;
+      height: 60%;
+      background-color: rgb(161, 161, 230);
+      display: flex;
+  }
+
+  #nav{
+      width: 100%;
+      height: 10%;
+      background-color: #fff;
+      display: flex;
+      justify-content: space-between;
+      padding: 0 180px 0 360px;
+  }
+
+  .box{
+      width: 100px;
+      height: 100%;
+      text-align: center;
+      padding: 5px;
+  }
+  .box:nth-child(1) h2{
+      opacity: 1;
+  }
+.box h2{
+    opacity: .6;
+}
+  .box h3{
+      margin-top: 20px;
+      opacity: .78;
+  }
+  .box a{
+      margin-top: 15px;     
+      display: flex;
+      justify-content: center;
+      text-decoration: none;
+  }
+
+  #left{
+      width: 30%;
+      height: 100%;
+      background-color: #e1daf5;
+      padding: 30px;
+  }
+
+  #left h2{
+    margin-top: 20px;
+  }
+  #line
+  {
+      width: 80%;
+      height: 3px;
+      border-radius: 5px;
+      background-color: black;
+      margin: auto;
+  }
+  #right{
+      width: 69%;
+      height: 100%;
+      background-color: #e1daf5;
+      padding: 30px;
+  }
+
+  h2 img{
+      display: inline-block;
+      width: 20px;
+      height: 20px;
+      border-radius: 50%;
+  }
+  #down h5{
+      margin: 10px 0;
+  }
+#down p{
+    margin-top: 10px;
+}
+  #right h4{
+      margin-right: 30px;
+      display: inline;
+  }
+
+  hr{
+      margin-top: 10px;
+  }
+
+  #rdown{
+      position: relative;
+      width: 100%;
+      height: 90%;
+      border-radius: 5px;
+      background-color: #fff;
+      margin-top: 20px;
+      padding: 20px;
+  }
+#rdown h3{
+    margin-left: 30px;
+}
+  #rdown h3 img{
+      position: absolute;
+      left: 16px;
+      width: 35px;
+      height: 35px;
+      top: 17px;
+  }
+
+  #rdown h3 span{
+      font-size: 14px;
+      opacity: .74;
+  }
+
+  #rdown p{
+      font-size: 20px;
+  }
